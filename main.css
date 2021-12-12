@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap");
+
+body {
+  background-color: #5865f2;
+  width: 98%;
+  height: 95vh;
+  font-family: "Readex Pro";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.container {
+  background-color: #36393f;
+  width: 30%;
+  height: 98%;
+  border-radius: 0.4rem;
+  color: #afb1b3;
+  padding: 0 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container h2 {
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+.container__formulario,
+label {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+
+.container__formulario,
+input {
+  background-color: #303338;
+  width: 95%;
+  height: 10%;
+  margin-bottom: 1.4rem;
+  border-radius: 0.2rem;
+  border: 1px solid #212327;
+  font-family: "Readex Pro";
+  color: #afb1b3;
+  font-size: 1em;
+  font-weight: 400;
+  padding-left: 1rem;
+}
+/* ACTIVAR HOVER */
+.container__formulario,
+input:hover {
+  border: 1px solid #040405;
+}
+/* ACTIVA COLOR INPUT AL HACER CLICK  */
+.container__formulario,
+input:focus-visible {
+  outline: 1px solid #089dd8;
+}
+/* EDITANDO FECHA DE NACIMIENTO */
+.container__formulario,
+select {
+  background-color: #303338;
+  color: #676c73;
+  font-size: 1.1em;
+  height: 10%;
+  margin-bottom: 1.4rem;
+  border-radius: 0.2rem;
+  border: 1px solid #212327;
+  padding: 0 0.5rem;
+}
+
+.container__formulario,
+.sm {
+  width: 35%;
+  margin: 0 5%;
+}
+
+.container__formulario,
+.sn {
+  width: 26%;
+}
+
+/* EDITANDO SCROLLBAR */
+
+select::-webkit-scrollbar {
+  width: 10px;
+  background-color: #303338;
+}
+
+select::-webkit-scrollbar-thumb {
+  background-color: #040405;
+  border-radius: 1rem;
+}
+
+.container__formulario,
+input[type="button"] {
+  background-color: #5865f2;
+  color: whitesmoke;
+  width: 100%;
+  height: 12%;
+  border-radius: 0.2rem;
+  margin-bottom: 0.6rem;
+  border-style: none;
+}
+
+.container__formulario,
+.alogin,
+a {
+  color: #089dd8;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.container__formulario,
+p { 
+  color: #5A5D64;
+  font-size: 0.4rem;
+  margin-top: 1.4rem;
+}
+
+.container__formulario,
+p,
+a {
+  font-size: 0.6rem;
+}
