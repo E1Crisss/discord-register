@@ -185,7 +185,7 @@ a {
   }
 }
 
-@media (min-width: 678px) {
+@media (max-width: 678px) {
   .container {
     width: 46%;
     height: 92%;
