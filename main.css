@@ -168,8 +168,8 @@ a {
 
 @media  (max-width: 798px){
   .container {
-    width: 40%;
-    height: 92%;
+    width: 42%;
+    height: 94%;
   }
 
   .container__formulario,
@@ -185,9 +185,9 @@ a {
   }
 }
 
-@media (max-width: 678px) {
+@media (min-width: 678px) {
   .container {
-    width: 85%;
+    width: 46%;
     height: 92%;
   }
 
@@ -219,5 +219,10 @@ a {
   .container__formulario,
   .sm {
     margin: 0 3%;
+  }
+
+  .container__formulario,
+  p {
+    margin-top: 0.5rem;
   }
 }
