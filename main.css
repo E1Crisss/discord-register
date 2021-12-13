@@ -13,7 +13,7 @@ body {
 
 .container {
   background-color: #36393f;
-  width: 30%;
+  width: 34%;
   height: 98%;
   border-radius: 0.4rem;
   color: #afb1b3;
@@ -43,7 +43,7 @@ label {
 input {
   background-color: #303338;
   width: 95%;
-  height: 10%;
+  height: 9%;
   margin-bottom: 1.4rem;
   border-radius: 0.2rem;
   border: 1px solid #212327;
@@ -69,7 +69,7 @@ select {
   background-color: #303338;
   color: #676c73;
   font-size: 1.1em;
-  height: 10%;
+  height: 9%;
   margin-bottom: 1.4rem;
   border-radius: 0.2rem;
   border: 1px solid #212327;
@@ -111,6 +111,12 @@ input[type="button"] {
 }
 
 .container__formulario,
+input:hover[type="button"] {
+  background-color: #4752c4;
+  cursor: pointer;
+}
+
+.container__formulario,
 .alogin,
 a {
   color: #089dd8;
@@ -120,8 +126,8 @@ a {
 }
 
 .container__formulario,
-p { 
-  color: #5A5D64;
+p {
+  color: #5a5d64;
   font-size: 0.4rem;
   margin-top: 1.4rem;
 }
@@ -129,5 +135,89 @@ p {
 .container__formulario,
 p,
 a {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
+}
+
+/* SECTION RESPONSIVE */
+
+@media (max-width: 1024px) {
+  .container {
+    width: 40%;
+    height: 96%;
+  }
+
+  .container h2 {
+    margin-top: 1.5rem;
+  }
+
+  .container__formulario,
+  label {
+    margin-bottom: 0.5rem;
+  }
+
+  .container__formulario,
+  input {
+    margin-bottom: 0.8rem;
+  }
+
+  .container__formulario,
+  p {
+    margin-top: 1rem;
+  }
+}
+
+@media  (max-width: 768px){
+  .container {
+    width: 40%;
+    height: 92%;
+  }
+
+  .container__formulario,
+  label {
+    font-size: 0.6rem;
+  }
+
+  .container__formulario,
+  input {
+    background-color: #303338;
+    width: 94%;
+    height: 8%;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    width: 85%;
+    height: 92%;
+  }
+
+  .container__formulario,
+  label {
+    font-size: 0.6rem;
+    margin-left: 0.3rem;
+  }
+
+  .container__formulario,
+  input {
+    background-color: #303338;
+    width: 92%;
+    height: 8%;
+    margin-left: 0.3rem;
+  }
+
+  .container__formulario,
+  input[type="button"] {
+    width: 98%;
+    height: 12%;
+  }
+
+  .container__formulario,
+  .sn {
+    margin-left: 0.4rem;
+  }
+
+  .container__formulario,
+  .sm {
+    margin: 0 3%;
+  }
 }
